@@ -1,17 +1,17 @@
-# Build AlphaDroid for OnePlus Ace 3 | 12R
+# Build AlphaDroid for Xiaomi Mi 9 SE (grus)
 
 ## Prerequisites
 - refer to [AOSP](https://source.android.com/docs/setup/start/requirements)
 
 ## Build
-1. Initialise repo with [AlphaDroid](https://github.com/AlphaDroid-Project/manifest/tree/alpha-15.2) source code.
+1. Initialize repo with [AlphaDroid](https://github.com/AlphaDroid-Project/manifest) source code.
     ```
-    repo init -u https://github.com/alphadroid-project/manifest.git -b alpha-15.2 --git-lfs
+    repo init -u https://github.com/alphadroid-project/manifest.git -b <branch> --git-lfs
     ```
 
-2. Download [aston manifest](https://github.com/AlphaDroid-devices/aston-manifest/blob/alpha-15.2/local_manifest.xml) by cloning this repo
+2. Clone grus manifest
     ```
-    git clone https://github.com/alphadroid-devices/aston-manifest -b alpha-15.2 .repo/local_manifests
+    git clone https://github.com/alphadroid-devices/grus-manifest .repo/local_manifests
     ```
 
 3. Sync
@@ -29,6 +29,6 @@
     Or the light menu (no bacon)
     ```
     . build/envsetup.sh
-    brunch aston
+    brunch <device>
     ```
 Enjoy! :)
