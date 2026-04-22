@@ -23,6 +23,9 @@
     <!-- hardware/xiaomi -->
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="alpha" />
 
+    <!-- hardware/dolby -->
+    <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="github" revision="16.0" />
+
     # ViperFX
     <!--<project path="packages/apps/ViPER4AndroidFX" name="elpaablo/packages_apps_ViPER4AndroidFX" remote="github" revision="v4a" />-->
 
