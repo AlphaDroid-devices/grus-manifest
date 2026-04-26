@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- <remote name="alpha-devices"
-            fetch="https://github.com/alphadroid-devices"
-            revision="refs/heads/alpha-15.2" /> -->
+    <!-- <remote name="github"
+            fetch="https://github.com"
+            revision="refs/heads/alpha-16.2" /> -->
 
     <!-- <remote name="alpha-gitlab"
             fetch="https://gitlab.com/alphadroid-project"
-            revision="refs/heads/alpha-15.2" /> -->
+            revision="refs/heads/alpha-16.2" /> -->
 
     <!-- device-->
-    <project path="device/xiaomi/grus" name="device_xiaomi_grus" remote="alpha-devices" />
-    <project path="device/xiaomi/sdm710-common" name="device_xiaomi_sdm710-common" remote="alpha-devices" />
+    <project path="device/xiaomi/grus" name="alphadroid-devices/device_xiaomi_grus" remote="github" />
+    <project path="device/xiaomi/sdm710-common" name="alphadroid-devices/device_xiaomi_sdm710-common" remote="github" />
 
     <!-- kernel -->
-    <project path="kernel/xiaomi/sdm710" name="kernel_xiaomi_sdm710" remote="alpha-devices" />
+    <project path="kernel/xiaomi/sdm710" name="alphadroid-devices/kernel_xiaomi_sdm710" remote="github" />
 
     <!-- vendor -->
     <project path="vendor/xiaomi/grus" name="vendor_xiaomi_grus" remote="alpha-gitlab" />
@@ -24,7 +24,9 @@
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="alpha" />
 
     <!-- hardware/dolby -->
-    <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="github" revision="16.0" />
+    <!--<project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="github" revision="16.0" />-->
+
+    <project path="packages/apps/LunarisDolby" name="alphadroid-devices/packages_apps_LunarisDolby" remote="github" revision="alpha-16.2" />
 
     # ViperFX
     <!--<project path="packages/apps/ViPER4AndroidFX" name="elpaablo/packages_apps_ViPER4AndroidFX" remote="github" revision="v4a" />-->
