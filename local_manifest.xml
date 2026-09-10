@@ -16,7 +16,7 @@
     <project path="vendor/xiaomi/sdm710-common" name="vendor_xiaomi_sdm710-common" remote="alpha-gitlab" revision="alpha-16.2"/>
 
     <!-- hardware/xiaomi -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="alpha" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="alpha" revision="alpha-16.2" />
 
     <!-- Dolby -->
     <project path="packages/apps/LunarisDolby" name="alphadroid-devices/packages_apps_LunarisDolby" remote="github" revision="alpha-16.2" />
