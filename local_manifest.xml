@@ -9,7 +9,7 @@
     <project path="device/xiaomi/sdm710-common" name="alphadroid-devices/device_xiaomi_sdm710-common" remote="github" revision="alpha-16.2"/>
 
     <!-- kernel -->
-    <project path="kernel/xiaomi/sdm710" name="alphadroid-devices/kernel_xiaomi_sdm710" remote="github" revision="alpha-16.2"/>
+    <project path="kernel/xiaomi/sdm710" name="alphadroid-devices/kernel_xiaomi_sdm710" remote="github" revision="alpha-16.2-ksu"/>
 
     <!-- vendor -->
     <project path="vendor/xiaomi/grus" name="vendor_xiaomi_grus" remote="alpha-gitlab" revision="alpha-16.2"/>
