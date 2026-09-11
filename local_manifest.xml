@@ -18,9 +18,6 @@
     <!-- hardware/xiaomi -->
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="alpha" revision="alpha-16.2" />
 
-    <!-- Dolby -->
-    <project path="packages/apps/LunarisDolby" name="alphadroid-devices/packages_apps_LunarisDolby" remote="github" revision="alpha-16.2" />
-
     <!-- ViperFX -->
     <!--<project path="packages/apps/ViPER4AndroidFX" name="elpaablo/packages_apps_ViPER4AndroidFX" remote="github" revision="v4a" />-->
 
